@@ -7,7 +7,7 @@
 
 # /asset contains data and SAM-generated masks (zero-shot)
 
-# /scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Due to the shitty coding of 1st author, it takes time to proceed...
+# /scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Because the terrible coding of the 1st author, it takes time to complete...
 
 # /scripts/unet.py are used to trianed the DL models. RECOMMEND to get the code from https://github.com/milesial/Pytorch-UNet.git, https://github.com/sfczekalski/attention_unet.git, and https://github.com/HuCaoFighting/Swin-Unet.git 
 
