@@ -22,9 +22,9 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 - SAM2point(3D, based on SAM2):
   <https://github.com/ZiyuGuo99/SAM2Point.git>
 
-Use /scripts/a1_SAMandCropping2.py to genrate masks and cropped images
+--- Use /scripts/a1_SAMandCropping2.py to genrate masks and cropped images
 
-/scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Because the terrible coding of the 1st author, it takes time to complete...  
+--- /scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Because the terrible coding of the 1st author, it takes time to complete...  
 
 
 ### /scripts/unet.py are used to trianed the DL models. **recommend** to get the code from:
