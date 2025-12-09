@@ -23,6 +23,7 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
   <https://github.com/ZiyuGuo99/SAM2Point.git>
 
 Use /scripts/a1_SAMandCropping2.py to genrate masks and cropped images
+
 /scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Because the terrible coding of the 1st author, it takes time to complete...  
 
 
