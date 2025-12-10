@@ -29,7 +29,7 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 
 ### /scripts/unet.py are used to trianed the DL models. **recommend** to get the code from:
 
-- U-Net (baseline):  
+- U-Net
   <https://github.com/milesial/Pytorch-UNet.git>
 - Attention U-Net:  
   <https://github.com/sfczekalski/attention_unet.git>
