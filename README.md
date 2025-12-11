@@ -51,6 +51,12 @@ Please follow the license and data-use agreements of the provider.
 
 - `asset/`  
   - Contains sample data and **SAM-generated masks** in zero-shot mode.
+ 
+### /scripts/TverskyLoss.py are used as Tversky Loss for the DL models. Setting alpha = 0.5 & beta = 0.5 makes it the Dice Loss. 
+
+
+- U-Net
+  <https://github.com/milesial/Pytorch-UNet.git>
 
 
 
