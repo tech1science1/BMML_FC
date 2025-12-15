@@ -10,7 +10,6 @@
 - attach please find requirements.txt
 
 ### We **strongly RECOMMEND** installing SAM from the official repository:
-
 - SAM (2D):  
   <https://github.com/facebookresearch/segment-anything.git>
 - SAM 2(2D):
@@ -23,12 +22,9 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
   <https://github.com/ZiyuGuo99/SAM2Point.git>
 
 --- Use /scripts/a1_SAMandCropping2.py to genrate masks and cropped images
-
 --- /scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Because the papaya coding of the 1st author, it takes time to complete...  
 
-
 ### /scripts/unet.py are used to trianed the DL models. **RECOMMEND** to get the code from:
-
 - U-Net
   <https://github.com/milesial/Pytorch-UNet.git>
 - Attention U-Net:  
@@ -38,7 +34,6 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 
 
 ### Jilin-1 satellite imagery
-
 The main experiments are conducted on **Jilin-1** high-resolution imagery over coastal salt marshes.
 
 - Jilin-1 satellite images can be obtained through an **education account** at:  
@@ -48,17 +43,13 @@ Please follow the license and data-use agreements of the provider.
 
 
 ### Repository data layout
-
 - `asset/`  
   - Contains sample data and **SAM-generated masks** in zero-shot mode.
  
 ### /scripts/TverskyLoss.py are used as Tversky Loss for the DL models. Setting alpha = 0.5 & beta = 0.5 makes it the Dice Loss. 
 
-
-- U-Net
-  <https://github.com/milesial/Pytorch-UNet.git>
-
-
+### Bayesian updater
+/scripts/c_BayseianUpdating_ML.py provides an Bayesian updater. Please input your predictions as the probability arrays.
 
 ### Files are being organized; more scripts will be updated soon....
 
