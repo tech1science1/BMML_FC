@@ -24,7 +24,7 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 --- Use /scripts/a1_SAMandCropping2.py to genrate masks and cropped images
 --- /scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Because the papaya coding of the 1st author, it takes time to complete...  
 
-### /scripts/unet.py are used to trianed the DL models. **RECOMMEND** to get the code from:
+### /scripts/unet.py, /scripts/attunet.py, and /scripts/swinunet.py are used to trianed the DL models. **RECOMMEND** to get the code from:
 - U-Net
   <https://github.com/milesial/Pytorch-UNet.git>
 - Attention U-Net:  
