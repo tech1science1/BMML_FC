@@ -32,6 +32,9 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 - Swin-UNet:  
   <https://github.com/HuCaoFighting/Swin-Unet.git>
 
+### /scripts/EqualizedFocalLoss.py, /scripts/FocalLoss.py, and /scripts/DiceLoss.py are used to trianed the DL models. 
+### /scripts/TverskyLoss.py are used as Tversky Loss for the DL models. Setting alpha = 0.5 & beta = 0.5 makes it the Dice Loss. 
+### **RECOMMEND** to get the code from their authors.
 
 ### Jilin-1 satellite imagery
 The main experiments are conducted on **Jilin-1** high-resolution imagery over coastal salt marshes.
@@ -46,7 +49,6 @@ Please follow the license and data-use agreements of the provider.
 - `asset/`  
   - Contains sample data and **SAM-generated masks** in zero-shot mode.
  
-### /scripts/TverskyLoss.py are used as Tversky Loss for the DL models. Setting alpha = 0.5 & beta = 0.5 makes it the Dice Loss. 
 
 ### Bayesian updater
 /scripts/c_BayseianUpdating_ML.py provides an Bayesian updater. Please input your predictions as the probability arrays.
