@@ -24,7 +24,7 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 --- Use /scripts/a1_SAMandCropping2.py to genrate masks and cropped images
 --- /scripts/a1_SAMandCropping2.py calculates the additional features, including the DPF features. Because the papaya coding of the 1st author, it takes time to complete...  
 
-### /scripts/unet.py, /scripts/attunet.py, and /scripts/swinunet.py are used to trianed the DL models. **RECOMMEND** to get the code from:
+### DL models: /scripts/unet.py, /scripts/attunet.py, and /scripts/swinunet.py are used to trianed the DL models. **RECOMMEND** to get the code from:
 - U-Net
   <https://github.com/milesial/Pytorch-UNet.git>
 - Attention U-Net:  
@@ -32,8 +32,9 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 - Swin-UNet:  
   <https://github.com/HuCaoFighting/Swin-Unet.git>
 
-### /scripts/EqualizedFocalLoss.py, /scripts/FocalLoss.py, and /scripts/DiceLoss.py are used to trianed the DL models. 
-### /scripts/TverskyLoss.py are used as Tversky Loss for the DL models. Setting alpha = 0.5 & beta = 0.5 makes it the Dice Loss. 
+### Loss functions
+- /scripts/EqualizedFocalLoss.py, /scripts/FocalLoss.py, and /scripts/DiceLoss.py are used to trianed the DL models. 
+- /scripts/TverskyLoss.py are used as Tversky Loss for the DL models. Setting alpha = 0.5 & beta = 0.5 makes it the Dice Loss. 
 - **RECOMMEND** to get the code from their authors.
 
 ### Jilin-1 satellite imagery
