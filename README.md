@@ -27,9 +27,9 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 ### DL models: /scripts/unet.py, /scripts/attunet.py, and /scripts/swinunet.py are used to trianed the DL models. **RECOMMEND** to get the code from:
 - U-Net
   <https://github.com/milesial/Pytorch-UNet.git>
-- Attention U-Net:  
+- Attention U-Net:
   <https://github.com/sfczekalski/attention_unet.git>
-- Swin-UNet:  
+- Swin-UNet:
   <https://github.com/HuCaoFighting/Swin-Unet.git>
 
 ### Loss functions
