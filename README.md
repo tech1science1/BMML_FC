@@ -52,7 +52,7 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
  
 
 ### Bayesian updater
-- /scripts/c_BayseianUpdating_ML.py provides an Bayesian updater. Please input your predictions as the probability arrays.
+- /scripts/c_BayseianUpdating_ML.py provides a Bayesian updater. Organize your predictions and input them as the probability arrays.
 
 ### Files are being organized; more scripts will be updated soon....
 
