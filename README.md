@@ -10,7 +10,7 @@
 - attach please find requirements.txt
 
 ### We **strongly RECOMMEND** installing SAM from the official repository:
-- SAM (2D):  
+- SAM (2D): 
   <https://github.com/facebookresearch/segment-anything.git>
 - SAM 2(2D):
   <https://github.com/facebookresearch/sam2.git>
