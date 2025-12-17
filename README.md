@@ -7,7 +7,7 @@
 - Python (≥ 3.8 recommended)
 - PyTorch (version matching your CUDA toolkit)
 - Common scientific stack: `numpy`, `scipy`, `scikit-learn`, `opencv-python`, `tqdm`, etc.
-- attach please find requirements.txt
+- Please find the attached requirements.txt
 
 ### We **strongly RECOMMEND** installing SAM from the official repository:
 - SAM (2D): 
