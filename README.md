@@ -48,7 +48,7 @@ If your work requires 3D extensions, you may consider more advanced SAM variants
 
 ### Repository data layout
 - `asset/`  
-  - Contains sample data and **SAM-generated masks** in zero-shot mode.
+  - Contains labeled data and **SAM-generated masks** in zero-shot mode.
  
 
 ### Bayesian updater
